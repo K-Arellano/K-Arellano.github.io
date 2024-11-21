@@ -2653,6 +2653,23 @@ h6 {
       .portfolio_box .short_info h4 a {
         color: #000000; }
 
+        .single_portfolio img {
+          width: 350px; /* Fixed width for the image */
+          height: 350px; /* Fixed height for the image */
+          object-fit: cover; /* Ensures the image scales and crops proportionally */
+          display: block; /* Removes extra space below the image */
+          margin: auto; /* Centers the image within its container */
+      }
+      
+      .portfolio_box {
+          position: relative; /* Keeps overlay functionality intact */
+          text-align: center; /* Ensures text alignment is preserved */
+      }
+      
+      .short_info {
+          padding: 10px; /* Adjusts spacing for text */
+      }
+      
 .single_portfolio {
   position: relative; }
   .single_portfolio .overlay {
